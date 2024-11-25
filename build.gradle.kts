@@ -1,5 +1,8 @@
 plugins {
     id("java")
+    id("io.qameta.allure") version "2.12.0"
+    jacoco
+    id("org.sonarqube") version "6.0.0.5145"
 }
 
 group = "org.example"
